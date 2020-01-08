@@ -77,7 +77,7 @@ var app = {
     }*/
 };
 function successCallback(result) {
-        alert("success");
+        /*alert("success");
         alert(result);
         alert(result.carrierName);
         alert(result.countryCode);
@@ -85,9 +85,9 @@ function successCallback(result) {
         alert(result.mnc);
         alert(result.phoneNumber);
         alert(result.cards[0].phoneNumber);
-        alert(result.cards[1].phoneNumber);
-        alert("###"+result.cards[0].deviceId);
-        alert("****"+result.cards[1].deviceId);
+        alert(result.cards[1].phoneNumber);*/
+        alert("IMEI 1 : "+result.cards[0].deviceId);
+        alert("IMEI 2 : "+result.cards[1].deviceId);
     }
 
     function errorCallback(error) {
