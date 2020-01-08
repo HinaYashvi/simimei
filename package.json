@@ -24,8 +24,7 @@
       "cordova-plugin-globalization": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-vibration": {},
-      "phonegap-plugin-barcodescanner": {}
+      "cordova-plugin-vibration": {}
     },
     "platforms": [
       "android"
@@ -33,6 +32,6 @@
   },
   "dependencies": {
     "cordova-android": "^8.1.0",
-    "phonegap-plugin-barcodescanner": "^8.1.0"
+    "cordova-plugin-barcodescanner": "^0.7.4"
   }
 }

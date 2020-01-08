@@ -1,11 +1,11 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
-      "id": "cordova-plugin-android-imei.IMEI",
-      "file": "plugins/cordova-plugin-android-imei/www/index.js",
-      "pluginId": "cordova-plugin-android-imei",
+      "id": "cordova-plugin-barcodescanner.BarcodeScanner",
+      "file": "plugins/cordova-plugin-barcodescanner/www/barcodescanner.js",
+      "pluginId": "cordova-plugin-barcodescanner",
       "clobbers": [
-        "cordova.plugins.IMEI"
+        "cordova.plugins.barcodeScanner"
       ]
     },
     {
@@ -370,22 +370,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-sim.Sim",
-      "file": "plugins/cordova-plugin-sim/www/sim.js",
-      "pluginId": "cordova-plugin-sim",
-      "merges": [
-        "window.plugins.sim"
-      ]
-    },
-    {
-      "id": "cordova-plugin-sim.SimAndroid",
-      "file": "plugins/cordova-plugin-sim/www/android/sim.js",
-      "pluginId": "cordova-plugin-sim",
-      "merges": [
-        "window.plugins.sim"
-      ]
-    },
-    {
       "id": "cordova-plugin-vibration.notification",
       "file": "plugins/cordova-plugin-vibration/www/vibration.js",
       "pluginId": "cordova-plugin-vibration",
@@ -393,18 +377,10 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
         "navigator.notification",
         "navigator"
       ]
-    },
-    {
-      "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
-      "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
-      "pluginId": "phonegap-plugin-barcodescanner",
-      "clobbers": [
-        "cordova.plugins.barcodeScanner"
-      ]
     }
   ];
   module.exports.metadata = {
-    "cordova-plugin-android-imei": "1.0.0",
+    "cordova-plugin-barcodescanner": "0.7.4",
     "cordova-plugin-battery-status": "1.2.5",
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-device": "1.1.7",
@@ -415,8 +391,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-media-capture": "1.4.3",
     "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-sim": "1.3.3",
-    "cordova-plugin-vibration": "2.1.6",
-    "phonegap-plugin-barcodescanner": "8.1.0"
+    "cordova-plugin-vibration": "2.1.6"
   };
 });

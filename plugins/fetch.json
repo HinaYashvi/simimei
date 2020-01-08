@@ -95,10 +95,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "phonegap-plugin-barcodescanner": {
+  "cordova-plugin-barcodescanner": {
     "source": {
       "type": "registry",
-      "id": "phonegap-plugin-barcodescanner@8.1.0"
+      "id": "cordova-plugin-barcodescanner"
     },
     "is_top_level": true,
     "variables": {}
