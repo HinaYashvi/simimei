@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-android-imei": {
-      "PACKAGE_NAME": "com.phonegap.qrcode"
-    },
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "com.phonegap.qrcode"
     },

@@ -9,14 +9,6 @@
         "parents": {
           "/*": [
             {
-              "xml": "<preference name=\"android-minSdkVersion\" value=\"23\" />",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"ImeiPlugin\"><param name=\"android-package\" value=\"dk.kapetanovic.imei.ImeiPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
               "count": 1
             },
@@ -78,10 +70,6 @@
       "AndroidManifest.xml": {
         "parents": {
           "/manifest": [
-            {
-              "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
-              "count": 1
-            },
             {
               "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
               "count": 1
@@ -158,9 +146,6 @@
     }
   },
   "installed_plugins": {
-    "cordova-plugin-android-imei": {
-      "PACKAGE_NAME": "com.phonegap.qrcode"
-    },
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "com.phonegap.qrcode"
     },
@@ -204,14 +189,6 @@
   },
   "dependent_plugins": {},
   "modules": [
-    {
-      "id": "cordova-plugin-android-imei.IMEI",
-      "file": "plugins/cordova-plugin-android-imei/www/index.js",
-      "pluginId": "cordova-plugin-android-imei",
-      "clobbers": [
-        "cordova.plugins.IMEI"
-      ]
-    },
     {
       "id": "cordova-plugin-battery-status.battery",
       "file": "plugins/cordova-plugin-battery-status/www/battery.js",
@@ -608,7 +585,6 @@
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-android-imei": "1.0.0",
     "cordova-plugin-battery-status": "1.2.5",
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-device": "1.1.7",
