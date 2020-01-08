@@ -35,10 +35,12 @@ var app = {
           alert('imei :'+ imei);
           //alert('error :'+err); 
         });*/
-        window.plugins.sim.getSimInfo(successCallback, errorCallback);
+        
     },
 
-
+    getImei: function(){
+        window.plugins.sim.getSimInfo(successCallback, errorCallback);
+    } 
     scan: function () {
         cordova.plugins.barcodeScanner.scan(
             function (result) {
