@@ -360,14 +360,6 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-sim/www/sim.js",
-        "id": "cordova-plugin-sim.Sim",
-        "pluginId": "cordova-plugin-sim",
-        "merges": [
-            "window.plugins.sim"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -382,8 +374,7 @@ module.exports.metadata =
     "cordova-plugin-globalization": "1.0.9",
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-vibration": "2.1.6",
-    "cordova-plugin-sim": "1.3.3"
+    "cordova-plugin-vibration": "2.1.6"
 }
 // BOTTOM OF METADATA
 });
