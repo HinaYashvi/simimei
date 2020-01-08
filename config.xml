@@ -2,7 +2,7 @@
 <widget id="com.phonegap.qrcode" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>QR-IMEI</name>
     <description>
-        QR & IMEI DEMO.
+        QR &amp; IMEI DEMO.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
