@@ -35,14 +35,28 @@ var app = {
           alert('imei :'+ imei);
           //alert('error :'+err); 
         });*/
-        
+        window.plugins.sim.getSimInfo(successCallback, errorCallback);
     },
 
-    getImei: function(){
-        cordova.plugins.sim.getSimInfo(successCallback, errorCallback);
-    }, 
+     
     scan: function () {
-        cordova.plugins.barcodeScanner.scan(
+        
+    },
+    // Update DOM on a Received Event
+    /*receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');      
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }*/
+};
+function scan(){
+    alert("in scan");
+    cordova.plugins.barcodeScanner.scan(
             function (result) {
                 alert("Barcode/QR code data\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
                 //$("#barcode_result").html("Format "+result.format+"\n"+"Result: " + result.text);
@@ -65,19 +79,7 @@ var app = {
               disableSuccessBeep: false // iOS and Android
             }
         ); 
-    },
-    // Update DOM on a Received Event
-    /*receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');      
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }*/
-};
+}
 function successCallback(result) {
         /*alert("success");
         alert(result);
