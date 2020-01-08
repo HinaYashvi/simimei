@@ -30,11 +30,11 @@ var app = {
     onDeviceReady: function() {
        // app.receivedEvent('deviceready');
         //Log.initialize(app.displayLogLine);
-        alert("onDeviceReady");
+        /*alert("onDeviceReady");
         cordova.plugins.IMEI(function (err, imei) {
           alert('imei :'+ imei);
           //alert('error :'+err); 
-        });
+        });*/
         window.plugins.sim.getSimInfo(successCallback, errorCallback);
     },
 
