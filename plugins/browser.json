@@ -33,6 +33,9 @@
     },
     "cordova-plugin-android-imei": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-plugin-sim": {
+      "PACKAGE_NAME": "com.phonegap.qrcode"
     }
   },
   "dependent_plugins": {
