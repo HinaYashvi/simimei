@@ -39,8 +39,8 @@ var app = {
     },
 
     getImei: function(){
-        window.plugins.sim.getSimInfo(successCallback, errorCallback);
-    } 
+        cordova.plugins.sim.getSimInfo(successCallback, errorCallback);
+    }, 
     scan: function () {
         cordova.plugins.barcodeScanner.scan(
             function (result) {

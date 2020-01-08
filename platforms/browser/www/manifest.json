@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "helloworld",
-  "short_name": "helloworld",
+  "name": "QR-IMEI",
+  "short_name": "QR-IMEI",
   "version": "com.phonegap.qrcode",
-  "description": "Hello World sample application that responds to the deviceready event.",
+  "description": "QR & IMEI DEMO.",
   "author": "PhoneGap Team",
   "icons": [],
   "start_url": "index.html"

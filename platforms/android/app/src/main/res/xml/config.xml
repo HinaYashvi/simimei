@@ -45,9 +45,9 @@
     <feature name="BarcodeScanner">
         <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
     </feature>
-    <name>helloworld</name>
+    <name>QR-IMEI</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        QR &amp; IMEI DEMO.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team

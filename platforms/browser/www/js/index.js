@@ -30,15 +30,17 @@ var app = {
     onDeviceReady: function() {
        // app.receivedEvent('deviceready');
         //Log.initialize(app.displayLogLine);
-        alert("onDeviceReady");
+        /*alert("onDeviceReady");
         cordova.plugins.IMEI(function (err, imei) {
           alert('imei :'+ imei);
           //alert('error :'+err); 
-        });
-        window.plugins.sim.getSimInfo(successCallback, errorCallback);
+        });*/
+        
     },
 
-
+    getImei: function(){
+        cordova.plugins.sim.getSimInfo(successCallback, errorCallback);
+    }, 
     scan: function () {
         cordova.plugins.barcodeScanner.scan(
             function (result) {
@@ -77,7 +79,7 @@ var app = {
     }*/
 };
 function successCallback(result) {
-        alert("success");
+        /*alert("success");
         alert(result);
         alert(result.carrierName);
         alert(result.countryCode);
@@ -85,7 +87,9 @@ function successCallback(result) {
         alert(result.mnc);
         alert(result.phoneNumber);
         alert(result.cards[0].phoneNumber);
-        alert(result.cards[1].phoneNumber);
+        alert(result.cards[1].phoneNumber);*/
+        alert("IMEI 1 : "+result.cards[0].deviceId);
+        alert("IMEI 2 : "+result.cards[1].deviceId);
     }
 
     function errorCallback(error) {
