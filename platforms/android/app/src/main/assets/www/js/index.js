@@ -53,7 +53,7 @@ var app = {
     }*/
 };
 function scan(){
-    alert("in scan");
+    //alert("in scan");
     cordova.plugins.barcodeScanner.scan(
             function (result) {
                 alert("Barcode/QR code data\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);

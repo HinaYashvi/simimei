@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-barcodescanner": {
-      "PACKAGE_NAME": "com.phonegap.qrcode"
-    },
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "com.phonegap.qrcode"
     },
@@ -38,6 +35,10 @@
       "PACKAGE_NAME": "com.phonegap.qrcode"
     },
     "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.phonegap.qrcode"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.phonegap.qrcode"
     }
   },

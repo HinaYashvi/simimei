@@ -1,14 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
-      "id": "cordova-plugin-barcodescanner.BarcodeScanner",
-      "file": "plugins/cordova-plugin-barcodescanner/www/barcodescanner.js",
-      "pluginId": "cordova-plugin-barcodescanner",
-      "clobbers": [
-        "cordova.plugins.barcodeScanner"
-      ]
-    },
-    {
       "id": "cordova-plugin-battery-status.battery",
       "file": "plugins/cordova-plugin-battery-status/www/battery.js",
       "pluginId": "cordova-plugin-battery-status",
@@ -377,10 +369,17 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
         "navigator.notification",
         "navigator"
       ]
+    },
+    {
+      "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+      "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+      "pluginId": "phonegap-plugin-barcodescanner",
+      "clobbers": [
+        "cordova.plugins.barcodeScanner"
+      ]
     }
   ];
   module.exports.metadata = {
-    "cordova-plugin-barcodescanner": "0.7.4",
     "cordova-plugin-battery-status": "1.2.5",
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-device": "1.1.7",
@@ -391,6 +390,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-media-capture": "1.4.3",
     "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-vibration": "2.1.6"
+    "cordova-plugin-vibration": "2.1.6",
+    "phonegap-plugin-barcodescanner": "8.1.0"
   };
 });
