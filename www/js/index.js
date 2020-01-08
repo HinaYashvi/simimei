@@ -86,6 +86,8 @@ function successCallback(result) {
         alert(result.phoneNumber);
         alert(result.cards[0].phoneNumber);
         alert(result.cards[1].phoneNumber);
+        alert("###"+result.cards[0].deviceId);
+        alert("****"+result.cards[1].deviceId);
     }
 
     function errorCallback(error) {
