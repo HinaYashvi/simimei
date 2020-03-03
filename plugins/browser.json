@@ -31,7 +31,7 @@
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
-    "phonegap-plugin-barcodescanner": {
+    "cordova-plugin-sim": {
       "PACKAGE_NAME": "com.phonegap.qrcode"
     }
   },

@@ -28,6 +28,7 @@ var app = {
     },
     
     onDeviceReady: function() {
+      alert("called");
        // app.receivedEvent('deviceready');
         //Log.initialize(app.displayLogLine);
         /*alert("onDeviceReady");

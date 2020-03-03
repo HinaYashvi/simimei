@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "QR-IMEI",
   "short_name": "QR-IMEI",
-  "version": "com.phonegap.qrcode",
+  "version": "com.phonegap.sim",
   "description": "QR & IMEI DEMO.",
   "author": "PhoneGap Team",
   "icons": [],
